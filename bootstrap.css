@@ -1,0 +1,21 @@
+*{
+    color: azure;
+}
+.banner{
+    background: url(./black_background.jpg) 0 0/cover no-repeat;
+    text-align: end;
+    padding: 200px; 
+}
+
+#btn a button{
+    border: none;
+    padding: 8px 20px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 50px;
+   transition: transform 0.5s;
+}
+#btn a button:hover{
+    background-color: gray;
+    transform: translateY(-20px);
+}

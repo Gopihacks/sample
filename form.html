@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action-page.php" autocomplete="on">
+        <label>First name:</label>
+        <input type="text" placeholder="Enter your name" value="Gopi" readonly/>
+        
+        <label>Last name:</label>
+        <input type="text" placeholder="Enter your name"pattern="[0-9]{4}-[a-g]{2}-[0-9]{4}" autofocus/>
+        
+        <label for="datemax">DOB</label>
+        <input type="date"  id="datemax" max="3-22-2003"/>
+
+        <label for="datemin">DOB</label>
+        <input type="date"  id="datemin" min="3-22-2003"/>
+
+        <label for="datemin">Quantity</label>
+        <input type="number"  id="datemin" min="1" max="4"/>
+        
+        <textarea rows="10" cols="100">the cat is playing</textarea>
+
+        <label>Choose the cars</label>
+        <select size="2" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="honda">Honda</option>
+            <option value="audi">Audi</option>
+            <option value="rr">RR</option>
+            <option value="benz">Benz</option>
+        </select>
+
+        <label>Volvo</label>
+        <input type="checkbox" value="Volvo" checked="checked">
+        
+        <label>Honda</label>
+        <input type="checkbox" value="Honda"/>
+        <label>RR</label>
+        <input type="checkbox" value="Honda"/>
+        <input type="checkbox" value="Honda" disabled="disabled"/>
+        <input type="checkbox" value="Honda" checked="checked"/>
+    </form>
+</body>
+</html>
